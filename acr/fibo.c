@@ -3,6 +3,12 @@
 #include <unistd.h>
 #include <pthread.h>
 
+/*
+SERIE DE FIBONACCI CON HILOS 
+CREATED BY Victor Anaya - ESCOM IPN
+sientete libre de usar mi codigo UwU
+*/
+
 void * fibo (void *arg){
     int a=0;
     int b=1;
