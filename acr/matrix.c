@@ -45,5 +45,19 @@ int main(int argc, char *argv[]){
         }
     }
     printf("\n");
+
+    for (int i = 0; i < filas_B; i++){
+        for (int j = 0; j < colum_B; j++){
+            matrixB[i][j] = rand()%6;
+            //scanf("%d",&matrixA[i][j]);
+        }
+    }
+    for (int i = 0; i < filas_B; i++){
+        printf("\n");
+        for (int j = 0; j < colum_B; j++){
+            printf("%d",matrixB[i][j]);
+        }
+    }
+    printf("\n");
     return 0;
 }
