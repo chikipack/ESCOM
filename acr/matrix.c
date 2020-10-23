@@ -2,11 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
+int filas_A,colum_A, filas_B, colum_B,numero_hilos;
 
 int main(int argc, char *argv[]){
     srand(time(NULL));
 
-    int filas_A,colum_A, filas_B, colum_B,numero_hilos;
+    
     printf("ingresa las filas de la matriz A\n");
     scanf("%d",&filas_A);
     printf("ingresa las columnas de la matriz A\n");
