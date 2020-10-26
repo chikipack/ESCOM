@@ -4,6 +4,7 @@
 
 int input_check(int input);
 int numThread_check(int num_thread, int rowOfA);
+int matrixA[][],matrixB[][],matrixC[][];
 
 int main(int argc, char * argv[]) {
     srand(time(NULL));//random values function
@@ -35,7 +36,8 @@ int numThread_check(int num_thread, int rowOfA){
     if (num_thread <= rowOfA){
         return 0;
     }else{
-        printf("number oh threads must be smaller/equals to rows of matrix A \n");
+        printf("number of threads must be smaller/equals to rows of matrix A \n");
+        return -1;
     }
     
 }
