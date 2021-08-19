@@ -1,3 +1,1 @@
-# ESCOM notas de mi estancia en ESCOM
-
-Update: 9no semestre ESCOM
+Estas en la Carpeta de la UA Compiladores
